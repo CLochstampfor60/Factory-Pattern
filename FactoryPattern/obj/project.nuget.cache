@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cRyMRSz8/T9BWtq/tymQ0QHf7n27LEhnV4NWsZqEAtH/RS7cd2WMsq0+TV/ixOJ4oR3VPBkH82I0fEl8+SaKfg==",
+  "dgSpecHash": "127ghgPwv+l2C9eQXenTiAGOHMFhxLfONXqQiI/GfjB+26k6v76JITv0xP8e4fMTZBC6tYWP1xPciCdWqRD1IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\new\\FactoryPattern\\FactoryPattern\\FactoryPattern.csproj",
+  "projectFilePath": "C:\\Users\\CJ\\Desktop\\code-class\\true-coders\\repos-tc\\Factory-Pattern\\FactoryPattern\\FactoryPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
