@@ -6,7 +6,7 @@
         {
 
             Console.WriteLine("How many tires do you want on your vehicle?");
-            string answer = Console.ReadLine().ToString();
+            string answer = Console.ReadLine();
 
             IVehicle chosenVehicle = VehicleFactory.GetVehicle(answer);
             chosenVehicle.Drive();

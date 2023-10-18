@@ -6,24 +6,27 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    public static IVehicle GetVehicle(string tireNumber)
+    internal static class VehicleFactory
     {
-        switch (tireNumber.ToLower())
+        public static IVehicle GetVehicle(string tireNumber)
         {
-            case "four":
-                return new Car();
-            case "4":
-                return new Car();
-            case "two":
-                return new Motorcycle();
-            case "2":
-                return new Motorcycle();
-            case "eighteen":
-                return new BigRig();
-            case "18":
-                return new BigRig();
-            default:
-                return new Car();
+            switch (tireNumber.ToLower())
+            {
+                case "four":
+                    return new Car();
+                case "4":
+                    return new Car();
+                case "two":
+                    return new Motorcycle();
+                case "2":
+                    return new Motorcycle();
+                case "eighteen":
+                    return new BigRig();
+                case "18":
+                    return new BigRig();
+                default:
+                    return new Car();
+            }
         }
     }
 }
